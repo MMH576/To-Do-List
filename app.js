@@ -21,6 +21,7 @@ function addTodo(event){
     newTodo.innerText = todoInput.value;
     newTodo.classList.add('todo-item');
     todoDiv.appendChild(newTodo);
+
     //CHECKED button
     const completedButton = document.createElement('button');
     completedButton.innerHTML = '<i class="fas fa-check"></i>';
@@ -78,5 +79,4 @@ function filterTodo(e){
                 }
                 break;
         }
-    })
-}
+    })}

@@ -28,6 +28,7 @@ form input, form button{
     font-size: 2rem;
     border: none;
     background: white;
+    height: 3rem;
 }
 
 form button{
@@ -109,7 +110,7 @@ select{
 }
 
 .select{
-    margin: 1rem;
+    margin-left: 1rem;
     position: relative;
     overflow: hidden;
 }
